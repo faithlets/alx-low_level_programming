@@ -9,6 +9,7 @@
 int main(void)
 {
 	int stdErrFileNo = (2);
+
 	char buf[60];
 	size_t nBytes;
 
