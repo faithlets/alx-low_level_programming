@@ -16,5 +16,5 @@ int main(void)
 	strcpy(buf, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 	nBytes = strlen(buf);
 	write(stdErrFileNo, buf, nBytes);
-	return (1);
+	return (0);
 }
