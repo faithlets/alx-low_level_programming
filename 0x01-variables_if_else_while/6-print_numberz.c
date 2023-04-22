@@ -1,20 +1,18 @@
-#include <string.h>
-#include <unistd.h>
-
+#include <stdio.h>
 /**
- * main - Prints a string with printf
+ * main - Print numbers from 0 to 9.
  *
- * Return: 0 if program executed successfully
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int stdErrFileNo = (2);
+	int i;
 
-	char buf[60];
-	size_t nBytes;
-
-	strcpy(buf, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
-	nBytes = strlen(buf);
-	write(stdErrFileNo, buf, nBytes);
-	return (0);
+	for (i = 48; i < 58; i++)
+        {
+		putchar(i);
+	}
+        putchar('\n');
+	return (0);	
 }
+                
