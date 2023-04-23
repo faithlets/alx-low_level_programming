@@ -1,6 +1,9 @@
 #include <stdio.h>
-
-int main() 
+/**
+ * main - prints all possible different combinations of two digits.
+ * Return: Always 0 (Success)
+ */
+int main(void) 
 {
   int a, b;
   
@@ -13,14 +16,10 @@ int main()
       
       if(a == 8 && b == 9)
           continue;
-          
-      putchar(',');
-      putchar(' ');
+             putchar(',');
+	     putchar(' ');
     }
   }
-  
   putchar('\n');
-  
-  
   return 0;
 }
