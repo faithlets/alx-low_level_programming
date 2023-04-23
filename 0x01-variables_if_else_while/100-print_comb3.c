@@ -8,7 +8,7 @@ int main(void)
   int a, b;
   
   for(a = 0; a < 9; a++)
-  {
+  {i
     for(b = a + 1; b < 10; b++)
     {
       putchar((a % 10) + '0');
